@@ -1,20 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
-
-:root {
-  --dark: #0e0e0e;
-  --light: #fff;
-  --accent: #ffaa00;
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f6f8; /* нейтральний світлий */
+  color: #111;               /* темний текст */
+  scroll-behavior: smooth;
+}
+:root{
+  --dark:#0e0e0e; --light:#fff; --accent:#ffaa00;
+  --muted:#6b7280; --card:#ffffff; --bg:#f5f6f8;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html, body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: var(--dark);
-  color: var(--light);
-  scroll-behavior: smooth;
 }
