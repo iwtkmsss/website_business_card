@@ -4,7 +4,9 @@ import '../styles/Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">BERT</div>
+      <div className="navbar-logo">
+        BERT<span className="logo-sub">company</span>
+      </div>
       <ul className="navbar-menu">
         <li><Link to="hero" smooth={true} duration={100} offset={-50}>Головна</Link></li>
         <li><Link to="services" smooth={true} duration={100} offset={-50}>Послуги</Link></li>

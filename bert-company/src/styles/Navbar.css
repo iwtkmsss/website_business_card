@@ -13,9 +13,20 @@
 }
 
 .navbar-logo {
-  font-size: 1.5rem;
+  display: inline-flex;
+  align-items: baseline;
+  gap: .5rem;
   font-weight: 900;
-  color: #ffaa00;
+  font-size: 1.5rem;
+  color: #ffaa00;           /* основний колір логотипу */
+}
+
+.logo-sub {
+  font-size: .75rem;      /* менший шрифт */
+  letter-spacing: .18em;  /* “дрібний” технічний вайб */
+  text-transform: uppercase;
+  color: #fff;            /* білим, як просив */
+  opacity: .85;           /* трохи легше візуально */
 }
 
 .navbar-menu {
