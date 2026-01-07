@@ -55,3 +55,32 @@
   font-size: 1rem;
   color: #555;
 }
+
+@media (max-width: 900px) {
+  .mission {
+    padding: 80px 16px;
+  }
+
+  .mission-title {
+    font-size: 2rem;
+  }
+
+  .mission-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .mission-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .mission {
+    padding: 64px 16px;
+  }
+
+  .mission-block {
+    padding: 1.5rem;
+  }
+}

@@ -15,6 +15,11 @@ function Footer() {
           <li><Link to="contact" smooth={true} duration={100} offset={-50}>Контакти</Link></li>
         </ul>
 
+        <div className="footer-contacts">
+          <p>📧 hello@bertcompany.com</p>
+          <p>📍 Київ, Україна</p>
+        </div>
+
         <div className="footer-socials">
           <a href="#"><FaTelegram /></a>
           <a href="#"><FaLinkedin /></a>

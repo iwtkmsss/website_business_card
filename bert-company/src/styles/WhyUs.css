@@ -55,3 +55,32 @@
   font-size: 1rem;
   color: #555;
 }
+
+@media (max-width: 900px) {
+  .why-us {
+    padding: 80px 16px;
+  }
+
+  .why-title {
+    font-size: 2rem;
+  }
+
+  .why-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .why-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-us {
+    padding: 64px 16px;
+  }
+
+  .why-card {
+    padding: 1.5rem;
+  }
+}

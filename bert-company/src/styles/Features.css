@@ -55,3 +55,51 @@
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
+
+@media (max-width: 900px) {
+  .features {
+    padding: 80px 16px;
+  }
+
+  .features-inner {
+    gap: 48px;
+  }
+
+  .feature-row {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .feature-row.reverse {
+    flex-direction: column;
+  }
+
+  .feature-text {
+    min-width: 0;
+  }
+
+  .feature-image {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .feature-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .feature-text p {
+    font-size: 1rem;
+  }
+
+  .feature-emoji {
+    font-size: 4rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .features {
+    padding: 64px 16px;
+  }
+}

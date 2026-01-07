@@ -39,6 +39,18 @@
   color: #ffaa00;
 }
 
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.footer-contacts p {
+  margin: 0;
+}
+
 .footer-socials {
   display: flex;
   gap: 1.5rem;
@@ -59,4 +71,30 @@
   font-size: 0.9rem;
   color: #888;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding: 48px 16px 28px;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .footer-socials {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-logo {
+    font-size: 1.5rem;
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+  }
 }
