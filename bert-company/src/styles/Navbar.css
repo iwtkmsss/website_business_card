@@ -14,14 +14,16 @@
 
 .navbar-logo {
   display: inline-flex;
-  align-items: baseline;
-  gap: .5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
   font-weight: 900;
   font-size: 1.5rem;
   color: #ffaa00;           /* основний колір логотипу */
 }
 
 .logo-sub {
+  display: block;
   font-size: .75rem;      /* менший шрифт */
   letter-spacing: .18em;  /* “дрібний” технічний вайб */
   text-transform: uppercase;
