@@ -51,6 +51,11 @@
   margin: 0;
 }
 
+.footer-contacts a {
+  color: white;
+  text-decoration: none;
+}
+
 .footer-socials {
   display: flex;
   gap: 1.5rem;

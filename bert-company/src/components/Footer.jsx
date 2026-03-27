@@ -15,14 +15,8 @@ function Footer() {
         </ul>
 
         <div className="footer-contacts">
-          <p>📧 hello@bertcompany.com</p>
+          <a href="mailto:contact@bertcompany.org">📧 contact@bertcompany.org</a>
           <p>📍 Київ, Україна</p>
-        </div>
-
-        <div className="footer-socials">
-          <a href="#"><FaTelegram /></a>
-          <a href="#"><FaLinkedin /></a>
-          <a href="#"><FaFacebook /></a>
         </div>
       </div>
 
